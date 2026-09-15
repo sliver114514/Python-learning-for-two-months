@@ -142,3 +142,4 @@ cd Python-learning-for-two-months
 
 欢迎任何人 fork、修改、提交 Pull Request 或 Issue。
 如果你有更好的写法、更详细的注解，欢迎直接贡献。
+如果这个仓库对你有帮助，欢迎点一个 ⭐ Star，让更多中文初学者看到。
