@@ -41,7 +41,7 @@
 
 ```bash
 git clone https://github.com/sliver114514/Python-learning-for-two-months.git
-cd Python-learning-for-two-months
+cd Python-learning-for-two-months```
 
 > [!TIP]
 > 我使用的是 PyCharm 来进行编写，它对新手极其友好。如果你有一定的基础，可使用 Visual Studio Code（VS Code）。它速度快、效率高，并且拥有丰富的扩展和自定义选项。
