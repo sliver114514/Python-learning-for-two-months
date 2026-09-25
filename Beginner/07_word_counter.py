@@ -1,4 +1,5 @@
 # 读取文本
+import re
 file_path = input("Enter file path: (TXT): ")
 
 try:
