@@ -1,5 +1,3 @@
-# import secrets
-
 # 复刻的上面的简易版,并加入全局循环
 def get_number(prompt):
     while True:
