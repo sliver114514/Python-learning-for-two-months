@@ -18,11 +18,12 @@ def play_hangman():
 
         guess = input("Guess a letter: ").lower()
 
-        # Validate input
+        # 卫语句,快速过滤非法输入
         if not guess.isalpha() or len(guess) != 1:
             print("Invalid input. Please enter a single letter.")
             continue
 
+        # 卫语句，防止反复猜测
         if guess in guessed_letters:
             print(f"You've already guessed '{guess}'. Try another letter.")
             continue
@@ -38,7 +39,7 @@ def play_hangman():
             print(f"Sorry, '{guess}' is not in the word.")
             attempts -= 1
 
-    # Game over
+    # 循环结束后，根据是否完全猜出来判断胜负
     if "".join(word_display) == chosen_word: # 判断是否猜完
         print(f"\nCongratulations! You guessed the word: {chosen_word}")
     else:
