@@ -1,0 +1,16 @@
+{
+    "income": [
+        {
+            "amount": 100.0,
+            "description": "beef",
+            "date": "2026/11/05 19:46:06"
+        }
+    ],
+    "expense": [
+        {
+            "amount": 1.0,
+            "description": "salt",
+            "date": "2026/11/05 19:46:29"
+        }
+    ]
+}
